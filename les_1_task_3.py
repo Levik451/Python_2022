@@ -13,12 +13,12 @@
 numbs = (11, 12, 13, 14)
 
 for i in range(100):
-    i = i + 1
+    i += 1
     if i in numbs:
-        print(i, "процентов")
+        print(f'{i} процентов')
     elif i % 10 == 1:
-        print(i, "процент")
-    elif i % 10 > 1 and i % 10 <5:
-        print(i, "процента")
+        print(f'{i} процент')
+    elif 1 < i % 10 < 5:
+        print(f'{i} процента')
     else:
-        print(i, "процентов")
+        print(f'{i} процентов')
