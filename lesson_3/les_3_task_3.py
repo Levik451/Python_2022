@@ -38,9 +38,9 @@ def get_sorted_dict(data: dict):
 
 
 if __name__ == '__main__':
-    name_list = thesaurus("Иван", "Мария", "Петр", "Илья", 'Анна')
+    name_list = thesaurus("Иван", "Мария", "Петр", "Илья", 'Максим')
     print(name_list)
     print(get_sorted_dict(name_list))
 
-    name_list_2 = thesaurus_adv("Иван Сергеев", "Инна Серова", "Петр Алексеев", "Илья Иванов", "Анна Савельева")
+    name_list_2 = thesaurus_adv("Иван Сергеев", "Инна Серова", "Петр Алексеев", "Илья Иванов", "Максим Савельев")
     print(name_list_2)
